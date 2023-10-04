@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img {
+    width: 100px;
+    transition: filter 0.3s ease-in-out; 
+}
+.blur-icon {
+    filter: blur(10px)
+}
+.nav {
+    display: flex;
+    column-gap: 30px;
+    font-size: 20px; 
+    
+}
+
+.nav li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 9px 0 ;
+    background-color: rgb(198, 198, 198);
+}
