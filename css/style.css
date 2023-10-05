@@ -47,3 +47,27 @@ header {
     padding: 9px 0 ;
     background-color: rgb(198, 198, 198);
 }
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.box img {
+    width: 100%;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    row-gap: 30px;
+
+}
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+}
