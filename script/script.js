@@ -102,3 +102,4 @@ new_data.forEach(el =>{
 
 })
 
+git pull origin 
