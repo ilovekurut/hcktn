@@ -1,7 +1,10 @@
 @media (max-width: 820px){
+
     .mobile-btn {
         display: flex;
     }
+   
+    
 
     .nav{
         position: fixed;
@@ -19,10 +22,21 @@
     
     }
 
-}
+
+    .wrapper {
+        flex-direction: column;
+      }
+
+
+     
+
 
 
 .show-nav {
     right: 0;
     
+    }
+
 }
+
+
