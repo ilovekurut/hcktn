@@ -37,6 +37,16 @@
     
     }
 
+
 }
 
+@media (max-width: 375px){
 
+    .modal{
+        width: 35vh;
+    }
+
+
+    
+
+    }
