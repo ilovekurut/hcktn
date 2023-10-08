@@ -118,3 +118,21 @@
     color: red;
     padding-left: 10px;
 }
+
+.modal__section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(198, 198, 198);
+    padding:20px;
+    row-gap: 10px;
+}
+
+.modal__section p{
+    padding: 20px;
+}
+
+
+.calculations{
+    margin: 20px;
+}

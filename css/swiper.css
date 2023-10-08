@@ -1,0 +1,38 @@
+    .swiper_1 .swiper-slide img {
+        width: 100%;
+        height: 100%;
+      }
+
+    .swiper_1 .swiper{
+        width: 65%;
+        max-width: 60vh;
+
+    }
+
+.swiper_1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px 0;
+  }
+
+
+
+  
+  .swiper_1 .qr_container img {
+    padding: 15px;
+    width: 65%;
+    max-width: 60vh;
+  }
+
+  .qr_container{
+    text-align: center;
+  }
+
+
+  .swiper{
+        margin-left: 0;
+        margin-right: 0;
+        }
+

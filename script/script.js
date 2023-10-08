@@ -101,7 +101,21 @@ new_data.forEach(el =>{
 
 })
 
+// swiper
+var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+    },
+  });
+//   swiper
 
-
-
-
+var mySwiper = new Swiper('.swiper-container', {
+    // настройки Swiper...
+    on: {
+      slideChange: function () {
+        resizeSwiperContainer(); // Вызываем функцию при смене слайда
+      }
+    }
+  });
+  

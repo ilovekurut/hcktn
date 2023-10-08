@@ -43,9 +43,10 @@ ul {
 
 header {
     position: fixed;
+    z-index: 2;
     width: 100%;
     padding: 9px 0 ;
-    background-color: rgb(198, 198, 198);
+    background-color: #be8bf2;
 }
 
 
@@ -142,36 +143,19 @@ header {
     width: 100%;
 }
 
-/* #cover{
-    background: url('https://tcrf.net/images/6/6b/MKArcadeKollection-DebugScreen_I25.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
 
-
-} */
-
-/* modal */
-
-.modal__section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgb(198, 198, 198);
-    padding:20px;
-    row-gap: 10px;
-}
-
-.modal__section p{
-    padding: 20px;
+#cover{
+    padding: 12px 0;
 }
 
 
-.calculations{
-    margin: 20px;
-}
-
-
+#object {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+  }
+  
 
 
 
@@ -204,5 +188,8 @@ header {
 }     
 
 
+
+
 }
+
 

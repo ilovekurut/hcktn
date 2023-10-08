@@ -38,6 +38,21 @@
     }
 
 
+
+    .swiper_1 .swiper{
+        width: 95%;
+
+
+    }
+
+    .swiper_1 .qr_container img {
+
+        width: 90%;
+
+      }
+    
+
+
 }
 
 @media (max-width: 375px){
