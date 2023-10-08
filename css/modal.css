@@ -1,0 +1,120 @@
+.modalBackrop {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+    backdrop-filter: blur(30px);
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.modalBackropActive {
+    opacity: 1;
+    visibility: visible;
+}
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    width: 30vh;
+    height: 50%;
+    background-color: #fff;
+    transition: 0.5s;
+    z-index: 3;
+}
+.modalActive {
+    scale: 1;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #59b5f9;
+    color: white;
+    padding: 10px;
+}
+
+.modalHeader a{
+    display: inline-flex;
+}
+.header__text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalHeader {
+    cursor: pointer;
+}
+
+.hideModalContent {
+    display: none;
+}
+
+
+
+.modalContent form {
+    text-align: center;
+}
+
+.modalContent .input-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.modalContent .input-row input[type="text"],
+.modalContent .input-row input[type="text"] {
+    width: 70%;
+    margin-right: 9px; 
+}
+
+
+.apply {
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    background-color: #59b5f9;
+    cursor: pointer;
+    
+}
+
+.apply:active {
+    transform: translateY(2px); 
+    background-color: #4a8af4; 
+    transition: transform 0.2s ease, background-color 0.2s ease; 
+}
+
+
+.message{
+    flex-direction: column;
+    display: flex;
+    margin: 20px;
+
+    
+}
+
+
+.modalContent{
+    display: flex;
+    justify-content: center;
+    margin-top: 40%;
+
+}
+
+.count{
+    color: red;
+    padding-left: 10px;
+}

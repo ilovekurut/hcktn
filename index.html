@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>meme king</title>
+    <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/burger.css">
     <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -42,9 +43,44 @@
         </div>
     </div>
     </main>
-    
 
 
+    <section id="votes">
+        <div class="modal__section">
+            <p>Подкупай голоса по самой низкой цене!</p>
+            <div class="counter">0</div>
+            <div class="calculations">
+                <div class="add">+</div>
+                <div class="sub">-</div>
+            </div>
+            <button class="apply">купить</button>
+        </div>
+        <div class="modalBackrop">
+            <div class="modal">
+            
+                <div class="modalHeader">
+                    <a>вы купите <div class="count">0</div> </a> 
+                    <span class="close">X</span>
+                </div>
+               <div class="modalContent">
+        <form>
+            <div class="input-row">
+                <input class="messager" type="text" placeholder="введите свой номер">
+                <button class="resetMessager" type="button">Сбросить</button>
+            </div>
+            <div class="input-row">
+                <input class="number" type="text" placeholder="имя и фамилия">
+                <button class="resetNumber" type="button">Сбросить</button>
+            </div>
+            <button class="apply" type="submit">купить</button>
+            <div class="message"></div>
+        </form>
+            </div>
+ 
+        </div>
+        </div>
+    </section>
+    <script src="./script/modal.js"></script>
     <script src="./script/burger.js"></script>
     <script src="./script/script.js"></script>
 </body>
