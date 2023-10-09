@@ -115,6 +115,10 @@ header {
     width: 100%;
 }
 
+.swiper-pagination-bullet-active{
+    background: red;
+}
+
 
 .main_block {
     margin: 0 auto;
