@@ -123,7 +123,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(198, 198, 198);
+    background: #ececec; 
     padding:20px;
     row-gap: 10px;
 }
@@ -135,4 +135,20 @@
 
 .calculations{
     margin: 20px;
+}
+
+
+@media (max-width: 1224px){
+    .swiper_1 .swiper{
+        width: 100%;
+
+
+    }
+
+    .swiper_1 .qr_container img {
+
+        width: 100%;
+
+      }
+
 }

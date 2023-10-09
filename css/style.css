@@ -143,11 +143,9 @@ header {
     width: 100%;
 }
 
-
 #cover{
     padding: 12px 0;
 }
-
 
 #object {
     width: 50px;
@@ -155,7 +153,32 @@ header {
     background-color: red;
     position: absolute;
   }
+
+  footer {
+    text-align: center;
+    background-color: #ececec;
+    color: rgb(0, 0, 0);
+    padding: 20px; 
+  }
   
+  .footer__content {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    margin: 0 auto; 
+  }
+  
+  .footer__info,
+  .footer__contact,
+  .footer__social {
+    flex: 1; 
+  }
+
+  .footer__social img{
+    width: 15%;
+  }
+
+
 
 
 
@@ -174,7 +197,6 @@ header {
 
     }
         
-
 
 
 .block__left,

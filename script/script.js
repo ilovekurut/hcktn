@@ -107,14 +107,14 @@ var swiper = new Swiper(".mySwiper", {
       el: ".swiper-pagination",
       dynamicBullets: true,
     },
-  });
-//   swiper
+  })
+
 
 var mySwiper = new Swiper('.swiper-container', {
-    // настройки Swiper...
+
     on: {
       slideChange: function () {
-        resizeSwiperContainer(); // Вызываем функцию при смене слайда
+        resizeSwiperContainer()
       }
     }
   });

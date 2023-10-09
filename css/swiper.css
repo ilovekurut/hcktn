@@ -4,16 +4,15 @@
       }
 
     .swiper_1 .swiper{
-        width: 65%;
-        max-width: 60vh;
-
+        width: 90%;
+        max-width: 80vh;
+    
     }
-
-.swiper_1 {
+    
+    .swiper_1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
     padding: 15px 0;
   }
 
@@ -21,8 +20,7 @@
 
   
   .swiper_1 .qr_container img {
-    padding: 15px;
-    width: 65%;
+    width: 90%;
     max-width: 60vh;
   }
 

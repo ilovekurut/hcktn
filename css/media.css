@@ -54,14 +54,50 @@
 
 
 }
+/*  */
+
+
+
+
+    @media (max-width: 390px){
+
+        .swiper_1 .swiper{
+            width: 90%;
+    
+    
+        }
+    
+        .swiper_1 .qr_container img {
+    
+            width: 90%;
+    
+          }
+
+    
+        }
+    
+
+
+
+
 
 @media (max-width: 375px){
 
     .modal{
         width: 35vh;
     }
+}
+
+    @media (max-width: 320px){
+        .modal{
+            width: 43vh;
+        }
+
+    }
+
 
 
     
 
-    }
+
+    /* устройств(1200,996,768,576,390) */
