@@ -63,13 +63,7 @@ new_data.forEach(el =>{
     main_box.className = 'main_box'
     col.className = 'col-4'
 
-
-
-  
-
- 
     img.src = el.img
-
 
     main_box.append(img)
     col.append(main_box)
